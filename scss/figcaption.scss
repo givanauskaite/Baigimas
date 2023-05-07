@@ -95,6 +95,7 @@ figcaption {
     text-align: center;
     border-radius: 0px 0px 5px 5px;
     padding-top: 10px;
+    list-style-type: none;
    }
   
   .special {
@@ -111,6 +112,27 @@ figcaption {
     figcaption {
       margin-top: 320px;
       width: 483px;
+    }
+    ul {
+      font-size: 0.7em;
+    }
+  
+    .rusis {
+      font-size: 0.9em;
+      position: relative;
+      right: 120px;
+    }
+  
+    .price {
+      position: relative;
+      right: 110px;
+      bottom: 25px;
+    }
+  
+    .period {
+      position: relative;
+      right: 120px;
+      bottom: 15px;
     }
 
     .centras2 {
@@ -129,31 +151,6 @@ figcaption {
       }
     }
   }
-  
-  ul {
-    font-size: 0.7em;
-  }
 
-  .rusis {
-    font-size: 0.9em;
-    position: relative;
-    right: 120px;
-  }
-
-  .price {
-    position: relative;
-    right: 110px;
-    bottom: 25px;
-  }
-
-  .period {
-    position: relative;
-    right: 120px;
-    bottom: 15px;
-  }
-
-  
-
-   
   }
   

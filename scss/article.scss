@@ -72,18 +72,18 @@ article {
     width: 400px;
     height: 425px;
     z-index: 1;
+    background:$white;
     color: $black;
-    background: $white;
     border-radius: 6px 6px 6px 6px;
    }
+
   
   
    h2 {
     width: 100%;
     border-radius: 6px 6px 0px 0px;
-  
     height: 57px;
-    background: $white;
+    background: $lgray;
     color: $black;
     text-align: center;
     padding-top: 10px;
@@ -154,7 +154,6 @@ article {
     }
   
     .first button.download {
-      // margin-left: 150px;
       margin-bottom: 20px;
     }
 
@@ -163,24 +162,23 @@ article {
       position: relative;
       left: 40px; 
     }
-  }
-
-  article .second {
-    background: $peach;
-    width: 350px;
-    height: 400px;
-    form {
-      position: relative;
-      right: 30px;
-      input {
-        width: 250px;
-      }
-    }
-    label {
-      font-size: 0.8em;
-    }
-    button.start {
+    article .second {
+      background: $peach;
       width: 350px;
-    }
+      height: 400px;
+      form {
+        position: relative;
+        right: 30px;
+        input {
+          width: 250px;
+        }
+      }
+      label {
+        font-size: 0.8em;
+      }
+      button.start {
+        width: 350px;
+      }
+  } 
   }
   
