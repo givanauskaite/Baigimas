@@ -56,6 +56,7 @@ figcaption {
     width: 343px;
     height: 471px;
     margin-top: 30px;
+
   }
   
   .plan2 {
@@ -82,27 +83,39 @@ figcaption {
   .virsus1 {
     background: $black;
     border-radius: 5px 5px 0px 0px;  
+    height: 180px;
    } 
   
    .virsus2 {
     background: $black;
     border-radius: 5px 5px 0px 0px;
+    height: 214px;
    } 
    
-   ul {
+   ul.special {
     background: $white;
     color: $gray;
     text-align: center;
-    border-radius: 0px 0px 5px 5px;
+    padding-top: 10px;
+    list-style-type: none;
+   }
+
+   ul.basic {
+    background: $white;
+    color: $gray;
+    text-align: center;
     padding-top: 10px;
     list-style-type: none;
    }
   
-  .special {
+  ul.special {
     border-top: 4px solid $green;
-  }
+    }
   
-   li {
+   li.things {
+    background: $white;
+    color: $gray;
+    list-style: none;
     font-size: 0.9em;
     padding-bottom: 15px;
    }
