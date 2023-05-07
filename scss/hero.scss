@@ -1,10 +1,8 @@
 #hero {
-    // @include padding-settings;
     background: $black;
     height: 596px;
     color: $white;
-    // display: flex;
-    // flex-direction: column;
+   
   
     h2 {
       margin-top: 60px;
@@ -34,7 +32,6 @@
     }
   
     p {
-      // padding-right: 100px;
       margin-left: 100px;
     }
   
