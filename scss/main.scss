@@ -1,6 +1,6 @@
 main {
     @include padding-settings;
-    background: url(/app/images/christoffer.jpg);
+    background: url('../images/christoffer.jpg');
     background-size: cover;
     height: 595px;
     background-position: bottom;
