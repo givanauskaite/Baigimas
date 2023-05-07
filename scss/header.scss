@@ -7,28 +7,25 @@ header {
     justify-content: space-between;
   }
   
-  ul {
-    text-align: right;
-    list-style-type: none;
-    margin-top: -40px;
-    margin-bottom: 40px;
+  nav {
+    background: $black;
+    ul {
+      background: $black;
+      text-align: right;
+      list-style-type: none;
+      margin-top: -40px;
+      margin-bottom: 40px;
+    }
   }
-  
-  
-  
-  a {
-    padding-bottom: 24px;
-  }
-  
-  
+
   .underline {
+    margin-right: 20px;
+    padding-bottom: 15px;
     position: relative;
     color: $white;
     text-decoration: none;
-    font-size: 14px;
-    margin-right: 30px;
   }
-  
+
   .underline::after {
     content: '';
     position: absolute;
@@ -36,39 +33,50 @@ header {
     height: 4px;
     bottom: 0;
     left: 0;
-    background-color: $peach;
+    background: $peach;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
   }
-  
-  .underline::after {
+
+  .underline::after{
     transform: scaleX(0);
   }
-  
-  .underline:hover::after {
+
+  .underline:hover::after{
     transform: scaleX(1);
   }
+
+  
+
   
   @media (max-width: 500px){
     header {
       text-align: left;
-      height: 250px;
+      height: 200px;
     }
   
     .svg1 {
-      margin-top: 80px;
+      margin-top: 60px;
     }
   
     header li {
       display: flex;
       flex-direction: column;
+      position: relative;
       text-align: center;
-      margin-top: -110px;
-      margin-right: -160px;
+      bottom: 50px;
+      left: 150px;
+      // margin-top: -110px;
+      // margin-right: -160px;
     }
   
     .underline::after {
-      background-color: $black;
+      background-color: $peach;
+      width: 40px;
+      position: absolute;
+      left: 120px;
+      bottom: 10px;
+      
     }
     
     #pirmasis {

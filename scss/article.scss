@@ -49,10 +49,10 @@ article {
    }
   
    button.download {
+    border: 2px solid $white;
     color: $white;
-    border-color: $white;
+    width: 120px;
     background: transparent;
-    padding: 7px 15px;
     margin-top: 50px;
     cursor: pointer;
     transition: 0.6s;
@@ -144,6 +144,8 @@ article {
       flex-direction: column;
       left: -80px;
       height: 450px;
+      margin-right: -80px;
+
     }
   
     .first p {
@@ -156,13 +158,29 @@ article {
       margin-bottom: 20px;
     }
 
-    article {
-      margin-right: -80px;
-    }
-
+  
     .second {
       position: relative;
       left: 40px; 
+    }
+  }
+
+  article .second {
+    background: $peach;
+    width: 350px;
+    height: 400px;
+    form {
+      position: relative;
+      right: 30px;
+      input {
+        width: 250px;
+      }
+    }
+    label {
+      font-size: 0.8em;
+    }
+    button.start {
+      width: 350px;
     }
   }
   
