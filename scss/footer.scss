@@ -1,0 +1,32 @@
+footer {
+    background: $black;
+    height: 124px;
+  }
+  
+  .icons2 {
+    display: flex;
+    gap: 70px;
+    position: relative;
+    top: 40%;
+    left: 10%;
+    i {
+    color: $peach;
+    }
+  }
+  
+  .copyright {
+    color: $white;
+    opacity: 0.5;
+    float: right;
+    position: relative;
+    right: 8%;
+    top: 10%;
+  }
+
+  @media (max-width: 500px){
+    .copyright{
+        position: relative;
+        top: 40%;
+        right: 30%;
+    }
+  }

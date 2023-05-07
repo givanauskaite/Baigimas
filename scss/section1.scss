@@ -1,0 +1,49 @@
+section {
+    @include padding-settings;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+  }
+  
+  section.social{
+    p {
+    color: $gray;
+    margin-left: 90px;
+    font-size: 0.9em;
+    width: 394px;
+    margin-bottom: 20px;
+    
+  }
+  
+  i {
+    color: $peach;
+    opacity: 0.65;
+  }
+  
+  h3 {
+    margin-left: 90px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 80px;
+    margin-top: 45px;
+  }
+  }
+  
+  @media (max-width: 500px){
+    section {
+      display: none;
+  
+      .container {
+        display: none;
+      }
+    }
+  }
+    
+  
+  
+  
+  

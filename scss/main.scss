@@ -1,0 +1,112 @@
+main {
+    @include padding-settings;
+    background: url(/app/images/christoffer-engstrom-503481-unsplash.png
+    );
+    background-size: cover;
+    height: 595px;
+    background-position: bottom;
+    padding-top: 90px;
+  }
+  
+  main section {
+    display: flex;
+    flex-direction: column;
+    color: $white;
+  }
+  
+  section .cube {
+   width: 100px;
+   line-height: 100px;
+   background: $cacao;
+   color: $gray2;
+   margin-left: 90px;
+   margin-bottom: 20px;
+   text-align: center;
+  //  transform: rotateZ(-45deg);
+  }
+  
+  #spalva {
+    background: $peach;
+    color: $white;
+  }
+  
+  
+  section img.mazesni {
+    width: 168px;
+    height: 168px;
+    float: right;
+    display: table-row;
+    margin-top: -160px;
+  }
+  
+  #spalva2:hover{
+    background: $orange;
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  
+  section img {
+    float: right;
+    width: 335px;
+    height: 177px;
+  }
+  
+  
+  section h1 {
+    width: 509px;
+    height: 124px;
+    margin-left: 270px;
+    margin-bottom: 40px;
+    margin-top: -80px;
+  }
+  
+  section p {
+    width: 509px;
+    height: 124px;
+    margin-left: 270px;
+    font-size: 0.9em;
+  }
+  
+  @media (max-width: 500px){
+    .cube {
+      display: flex;
+      justify-content: center;
+    }
+
+    main {
+      height: 450px;
+      position: relative;
+      top: 460px;
+    }
+
+    section .cube {
+      width: 60px;
+      height: 60px;
+      align-items: center;
+      font-size: 0.7em;
+      display: flex;
+      position: relative;
+      bottom: -40px;
+      left: -20px;
+      cursor: pointer;
+    }
+
+    section h1 {
+      display: none;
+    }
+
+    section p {
+      display: none;
+    }
+
+    section img {
+      display: none;
+    }
+
+    section img.mazesni {
+      display: none;
+    }
+  }
+   
+
+  

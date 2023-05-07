@@ -1,0 +1,60 @@
+#hero {
+    // @include padding-settings;
+    background: $black;
+    height: 596px;
+    color: $white;
+    // display: flex;
+    // flex-direction: column;
+  
+    h2 {
+      margin-top: 60px;
+      margin-left: 100px;
+      text-align: justify;
+      background: $black;
+      color: $white;
+      width: 314px;
+      height: 80px;
+    }
+  
+    svg {
+      margin-left: 100px;
+      margin-bottom: 20px;
+    }
+  
+    img {
+      float: left;
+      width: 389px;
+      height: 169px;
+      margin-left: 150px;
+      margin-top: 180px;
+    }
+  
+    .content {
+      float: right;
+    }
+  
+    p {
+      // padding-right: 100px;
+      margin-left: 100px;
+    }
+  
+    h4 {
+      margin-left: 150px;
+      margin-top: -40px;
+    }
+  
+    .ikonos {
+      width: 40px;
+      height: 40px;
+      background: $peach;
+      text-align: center;
+      border-radius: 100px;
+      padding-top: 7px;
+      margin-left: 100px;
+    }
+  
+    .tekstas p {
+      margin-left: 150px;
+    }
+
+  }
