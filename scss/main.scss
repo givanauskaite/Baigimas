@@ -1,111 +1,74 @@
 main {
     @include padding-settings;
-    background: url('../images/christoffer.jpg');
+    background: linear-gradient(rgba(218, 96, 96, 0.5)),url('../images/christoffer.jpg');
     background-size: cover;
-    height: 595px;
+    height: 495px;
     background-position: bottom;
     padding-top: 90px;
   }
-  
-  main section {
+
+  .tab {
+    overflow: hidden;
+    visibility: hidden;
+    position: relative;
+    top: 50px;
+  }
+
+  .flex-container {
     display: flex;
     flex-direction: column;
+  }
+
+  .flex-container > button {
+    background-color: $cacao;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 10px;
+    line-height: 75px;
+    position: relative;
+    top: 100px;
+    transition: 0.3s;
+  }
+
+  .flex-container > button:hover {
+    background-color: $peach ;
+  }
+
+  #spalva2:hover {
+    opacity: 0.4;
+  }
+
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    width: 500px;
+    position: relative;
+    right: 260px;
+    top: 30px;
     color: $white;
-  }
-  
-  section .cube {
-   width: 100px;
-   line-height: 100px;
-   background: $cacao;
-   color: $gray2;
-   margin-left: 90px;
-   margin-bottom: 20px;
-   text-align: center;
-  //  transform: rotateZ(-45deg);
-  }
-  
-  #spalva {
-    background: $peach;
-    color: $white;
-  }
-  
-  
-  section img.mazesni {
-    width: 168px;
-    height: 168px;
-    float: right;
-    display: table-row;
-    margin-top: -160px;
-  }
-  
-  #spalva2:hover{
-    background: $orange;
-    opacity: 0.5;
-    cursor: pointer;
-  }
-  
-  section img {
-    float: right;
-    width: 335px;
-    height: 177px;
-  }
-  
-  
-  section h1 {
-    width: 509px;
-    height: 124px;
-    margin-left: 270px;
-    margin-bottom: 40px;
-    margin-top: -80px;
-  }
-  
-  section p {
-    width: 509px;
-    height: 124px;
-    margin-left: 270px;
-    font-size: 0.9em;
-  }
-  
-  @media (max-width: 500px){
-    .cube {
-      display: flex;
-      justify-content: center;
-    }
-
-    main {
-      height: 450px;
-      position: relative;
-      top: 460px;
-    }
-
-    section .cube {
-      width: 60px;
-      height: 60px;
-      align-items: center;
-      font-size: 0.7em;
-      display: flex;
-      position: relative;
-      bottom: -40px;
-      left: -20px;
-      cursor: pointer;
-    }
-
-    section h1 {
-      display: none;
-    }
-
-    section p {
-      display: none;
-    }
-
-    section img {
-      display: none;
-    }
-
-    section img.mazesni {
-      display: none;
+    h1 {
+      padding-bottom: 30px;
     }
   }
-   
 
-  
+  .mazesni {
+    width: 147px;
+    position: relative;
+    left: 940px;
+    top: -90px;
+  }
+
+  .apacia img {
+    width: 300px;
+    position: relative;
+    top: 60px;
+    right: -70px;
+  }
+
+ @media (max-width:500px){
+  main{
+    height: 300px;
+  }
+
+}
