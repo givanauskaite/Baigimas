@@ -20,13 +20,14 @@ footer {
     float: right;
     position: relative;
     right: 8%;
-    top: 10%;
+    top: 20%;
   }
 
   @media (max-width: 500px){
     .copyright{
         position: relative;
-        top: 40%;
-        right: 30%;
+        top: 60%;
+        font-size: 0.8em;
+        right: 36%;
     }
   }

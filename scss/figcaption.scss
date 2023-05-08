@@ -6,12 +6,15 @@ figcaption {
   
     h1 {
       margin-top: 50px;
-      margin-bottom: -20px;
+      margin-bottom: 10px;
       padding-left: 40px;
     }
   
-    svg {
+    img {
       margin-left: 130px;
+      height: 2px;
+      width: 90px;
+      margin-bottom: 10px;
     }
   
     .centras2 {
@@ -20,7 +23,7 @@ figcaption {
       p{
         font-size: 0.7em;
         padding-top: 15px;
-        margin-bottom: 20px;
+        margin-bottom: 60px;
         padding-left: 30px;
       }
     }
@@ -36,21 +39,31 @@ figcaption {
     }
   
     .price {
-      font-size: 4em;
-      margin-bottom: 20px;
-      padding-right: 310px;
+      font-size: 5em;
+      padding-top: 20px;
+      // margin-bottom: 20px;
+      // padding-right: 310px;
     }
   
+
+
     .period {
       font-size: 0.7em;
+      text-align: center;
       padding-right: 290px;
-  
+      position: relative;
+      left: 140px;
+    }
+
+    p.period {
+      line-height: 1.5em;
+      height: 3em;
+      overflow: hidden;
+      white-space: nowrap;
+      width: 100%;
     }
   
-    .rusis {
-      padding-right: 290px;
-      padding-top: 15px;
-    }
+   
     
   .plan1 {
     width: 343px;
@@ -63,18 +76,18 @@ figcaption {
     width: 343px;
     height: 490px;
   
-    .period {
-      margin-bottom: -30px;
-    }
+    // .period {
+    //   margin-bottom: -30px;
+    // }
   }
   
-  button {
+  button.popular {
+    margin-top: 4px;
     width: 343px;
     border: none;
     height: 30px;
     background: $green;
     color: $white;
-    margin-bottom: 40px;
     cursor: pointer;
   }
   
@@ -123,8 +136,14 @@ figcaption {
   
   @media (max-width: 500px){
     figcaption {
-      margin-top: 320px;
       width: 483px;
+      height: 500px;
+      .plan1{
+        margin-top: -286px;
+      }
+      .plan2{
+        margin-top: -330px;
+      }
     }
     ul {
       font-size: 0.7em;
@@ -133,18 +152,18 @@ figcaption {
     .rusis {
       font-size: 0.9em;
       position: relative;
-      right: 120px;
     }
   
     .price {
       position: relative;
-      right: 110px;
       bottom: 25px;
     }
+
+    
   
     .period {
       position: relative;
-      right: 120px;
+      left: 18px;
       bottom: 15px;
     }
 

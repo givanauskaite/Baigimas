@@ -1,5 +1,6 @@
 
 summary {
+    background-color: white;
     width: 100%;
     height: 411px;
     display: flex;
@@ -18,6 +19,7 @@ summary {
     h1 {
       width: 636px;
       text-align: center;
+      margin-bottom: 10px;
     }
   }
   
@@ -89,17 +91,19 @@ summary {
   @media (max-width: 500px){
     summary {
       width: 500px;
-      margin-left: 40px;
+      margin: 0;
       height: 300px;
 
     }
 
     .centras3 {
-      padding-left: 20px;
+      position: relative;
+      left: 220px;
 
       h1 {
+        padding-top: 15px;
         font-size: 1em;
-        width: 150px;
+        width: 250px;
         padding-bottom: -20px;
       }
     }
@@ -113,17 +117,21 @@ summary {
       height: 140px;
       padding: 4px;
       font-size: 0.6em;
+      position: relative;
+      bottom: 50px;
     }
 
     .avatar img {
       height: 40px;
+      position: relative;
+      bottom: 50px;
     }
 
     .details {
       font-size: 0.7em;
       position: relative;
-      left: 35px;
-      top: 20px;
+      left: 5px;
+      bottom: 60px;
     }
 
     .circles {
