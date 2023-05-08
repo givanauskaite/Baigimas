@@ -4,16 +4,9 @@ article {
     background-position: center;
     background-size: cover;
     height: 550px;
-    color: white;
+    color: $white;
     display: flex;
     align-items: center;
-   }
-  
-  article::before {
-    content: "";
-    position: absolute;
-    backgroud: $black;
-    opacity: 0.63;
    }
   
    article .first {
@@ -203,52 +196,4 @@ article {
  
   }
   
-    
-  // @media (max-width: 500px){
-  //   article {
-  //     position: relative;
-  //     flex-direction: column;
-  //     left: -80px;
-  //     height: 450px;
-  //     margin-right: -80px;
-  //     top: 230px;
-  //   }
-
-  //   body {
-  //     background: $peach;
-  //   }
-  
-  //   .first p {
-  //     inline-size: 450px;
-  //     overflow-wrap: break-word;
-  //   }
-  
-  //   .first button.download {
-  //     margin-bottom: 20px;
-  //   }
-
-  
-  //   .second {
-  //     position: relative;
-  //     left: 40px; 
-  //   }
-  //   article .second {
-  //     background: $peach;
-  //     width: 350px;
-  //     height: 400px;
-  //     form {
-  //       position: relative;
-  //       right: 30px;
-  //       input {
-  //         width: 250px;
-  //       }
-  //     }
-  //     label {
-  //       font-size: 0.8em;
-  //     }
-  //     button.start {
-  //       width: 350px;
-  //     }
-  // } 
-  // }
-  
+ 
